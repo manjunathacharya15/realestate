@@ -4,7 +4,7 @@ export default class NavbarComponent extends Component{
   render(){
     return(
 <nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor: "white"}}>
-      <a class="navbar-brand" href="/"><img style={{height:"70px"}} src="./log.jpeg"/></a>
+      <a class="navbar-brand" href="/"><img style={{height:"70px"}} src="./rlogi.png"/></a>
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
             <a  class="nav-link" href="/">Home</a>
@@ -15,6 +15,12 @@ export default class NavbarComponent extends Component{
           <li class="nav-item">
             <a class="nav-link" href="/about">About</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/project">Project</a>
+          </li>
+          
+
+          
         
         </ul>
     </nav>
