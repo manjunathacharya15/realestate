@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
+import '/Users/manjunath/realestate/src/index.css'
 
 
 
 export default class homepage extends Component {
     render() {
         return (
-            <div className="container" style={{margin:"auto 50px auto 50px"}}>
+            <div className="container" style={{margin:"auto 50px auto 50px",
+            display: "flex",
+  flexdirection: "column"
+            }}>
                 <div className="row">
-                    <div className=" col-lg col-md col-sm">
+                    <div className=" col-lg">
+                        
               
                 <div>
                 <img style={{width:"1400px",height:"700px"}} alt="" src="./first1.jpg"/>
@@ -67,7 +72,7 @@ Proper guidance / assistance in finding an idle place as per requirement.
                     </p> </span>
                 </div>
                 <div style={{display:"flex",alignItems:"center",flexDirection:"row-reverse"}} >
-                <img  style={{width:"800px",height:"600px",marginTop:"100px",marginBottom:"100px",}} alt="" src="./home1.jpg"/>
+                <img  style={{width:"800px",height:"600px",marginTop:"100px",marginBottom:"100px",}} alt="" src="./lax.jpg"/>
                 <span style={{marginLeft:"50px"}} ><b><h1>NOTABLE ACHIEVEMENTS</h1></b><br/>
                 <p style={{textAlign:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif"}}>
                

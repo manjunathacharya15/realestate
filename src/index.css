@@ -12,3 +12,14 @@ code {
     monospace;
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.container{
+@media only screen and (max-width:700px) {
+
+body {
+  backgroundcolor:red
+}
+  
+}
+}
