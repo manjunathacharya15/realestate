@@ -6,6 +6,7 @@ import Navbarcomponenet from './components/Navbarcomponet'
 import Pricing from './components/pricing'
 import About from './components/about'
 import Footer from './components/footer'
+
 import Project from './components/project'
 
 function App() {
@@ -19,9 +20,11 @@ function App() {
        <Route path="/pricing" exact component={Pricing}/>
        <Route path="/about" exact component={About}/>
        <Route path="/project" exact component={Project}/>
+       
      </Router>
+    <Footer/>
      </BrowserRouter>
-     <Footer/>
+   
     </div>
   );
 }
