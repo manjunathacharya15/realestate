@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '/Users/manjunath/realestate/src/index.css'
+// import '/Users/manjunath/realestate/src/index.css'
 
 
 
