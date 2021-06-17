@@ -19,8 +19,8 @@ export default class homepage extends Component {
               
                 </div> */}
                 <div>
-                <Carousel style={{}}>
-  <Carousel.Item >
+                <Carousel interval={"2000"}>
+  <Carousel.Item  >
     <img
     style={{width:"1400px",height:"700px"}}
       
@@ -29,7 +29,7 @@ export default class homepage extends Component {
     />
    
   </Carousel.Item>
-  <Carousel.Item interval={2000}>
+  <Carousel.Item >
     <img
     style={{width:"1400px",height:"700px"}}
       
@@ -38,7 +38,7 @@ export default class homepage extends Component {
     />
    
   </Carousel.Item>
-  <Carousel.Item interval={2000}>
+  <Carousel.Item >
     <img
     style={{width:"1400px",height:"700px"}}
       
@@ -48,15 +48,7 @@ export default class homepage extends Component {
 
   
   </Carousel.Item>
-  <Carousel.Item interval={2000}>
-    <img
-    style={{width:"1400px",height:"700px"}}
-     
-      src="./first4.jpg"
-      alt="fourth slide"
-    />
-
-  </Carousel.Item>
+ 
 </Carousel>
 </div>
                 
