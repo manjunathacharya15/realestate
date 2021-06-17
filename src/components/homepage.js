@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import '/Users/manjunath/realestate/src/index.css'
+import Carousel from 'react-bootstrap/Carousel'
 
 
 
@@ -14,10 +14,52 @@ export default class homepage extends Component {
                     <div className=" col-lg">
                         
               
-                <div>
+                {/* <div>
                 <img style={{width:"1400px",height:"700px"}} alt="" src="./first1.jpg"/>
               
-                </div>
+                </div> */}
+                <div>
+                <Carousel style={{}}>
+  <Carousel.Item >
+    <img
+    style={{width:"1400px",height:"700px"}}
+      
+      src="./first1.jpg"
+      alt="First slide"
+    />
+   
+  </Carousel.Item>
+  <Carousel.Item interval={2000}>
+    <img
+    style={{width:"1400px",height:"700px"}}
+      
+      src="./first2.jpg"
+      alt="First slide"
+    />
+   
+  </Carousel.Item>
+  <Carousel.Item interval={2000}>
+    <img
+    style={{width:"1400px",height:"700px"}}
+      
+      src="./first3.jpg"
+      alt="Second slide"
+    />
+
+  
+  </Carousel.Item>
+  <Carousel.Item interval={2000}>
+    <img
+    style={{width:"1400px",height:"700px"}}
+     
+      src="./first4.jpg"
+      alt="fourth slide"
+    />
+
+  </Carousel.Item>
+</Carousel>
+</div>
+                
                
                 <div style={{display:"flex",alignItems:"center"}} >
                     <img  style={{width:"800px",height:"600px",marginTop:"100px"}} alt="" src="./house.jpg"/>
@@ -35,62 +77,23 @@ When searching for your next home or a local market expert who’ll help you ach
                  </span>
                     
                 </div>
-                <div style={{display:"flex",alignItems:"center",flexDirection:"row-reverse"}}>
-                <img  style={{width:"800px",height:"600px",marginTop:"100px"}} alt="" src="./home1.jpg"/>
-                <span style={{marginRight:"50px"}} ><b><h1>OUR EXPERTISE</h1></b><br/>
-                <p style={{textAlign:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif"}}>
-                We are expertise in Luxury homes throughout down South and also have a standard for handling our clients in a more efficient way. We understand the needs and source of properties and ensure they are being fulfilled with quality time. 
-<ul>
-Proper guidance / assistance in finding an idle place as per requirement.
-<li>Negotiation in terms of financial transaction at the realistic market value.</li>
-<li>Providing legal documentations, Title Clearance, Stamping, Registration & Tax related matters under the guidance of professionals.</li>
-<li>Proper guidance for loans from the financial institutions, Nationalized Banks or other Banks.
-</li>
-<li>Proper guidance / assistance for investment in fresh, Pre-leased property or property under construction.</li>
-<li>Proper covenant with the Society for Redevelopment or to Development of open plots.</li>
-</ul>
-
-
-
-                </p> </span>
-                
-
-                </div >
-                <div style={{display:"flex",alignItems:"center"}} >
+               
+                <div style={{display:"flex",alignItems:"center",flexDirection:"row-reverse"}} >
                 <img  style={{width:"800px",height:"600px",marginTop:"100px",marginBottom:"100px",float:"left"}} alt="" src="./home.jpg"/>
-                <span style={{marginLeft:"50px"}} ><b><h1>AWARDS & RECOGNITIONS</h1></b><br/>
-                <p style={{textAlign:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif"}}>
+                <span style={{marginLeft:""}} ><b><h1>AWARDS & RECOGNITIONS</h1></b><br/>
+                <p style={{textAlign:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif",marginright:"100px"}}>
                 We ensure our clients come with a lot of expectations and we will be the best point of contact for their words.
-                    <ul>
+                    <ol>
                    
-<li>Best CP Award</li>	 
+<li value="1">Best CP Award</li>	 
 <li>Oldest CP Award </li>	
 <li>Best Business Strategy </li>	
 <li>Largest connect wrt client base </li>	
 
-                    </ul>
+                    </ol>
                     </p> </span>
                 </div>
-                <div style={{display:"flex",alignItems:"center",flexDirection:"row-reverse"}} >
-                <img  style={{width:"800px",height:"600px",marginTop:"100px",marginBottom:"100px",}} alt="" src="./lax.jpg"/>
-                <span style={{marginLeft:"50px"}} ><b><h1>NOTABLE ACHIEVEMENTS</h1></b><br/>
-                <p style={{textAlign:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif"}}>
-               
-                    <ul>
-<li>Sets challenging cross-functional goals.</li>	 
-<li>Integrated functional strategies.</li>	
-<li>Researched and developed new strategies to achieve company goals and objectives. </li>	
-<li>Developed plans for managing/retaining talent inside organization and for improving
-leadership strength. </li>
-<li>Developed operational functions essential for increasing firm’s productivity such as
-product promotion and placement.</li>	
-<li>Monitored company policies and developed new operational procedures.</li>
-<li>Study the real estate market and predict the changes in the market behavior ; Ensure
-optimum utilization of property and other resources.</li>
-
-                    </ul>
-                    </p> </span>
-                </div>
+                
                 </div>
                 </div>
             </div>
