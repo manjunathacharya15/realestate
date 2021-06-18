@@ -3,10 +3,15 @@ import React, { Component } from 'react'
 export default class ourproject extends Component {
     render() {
         return (
-            <div>
-                 <div style={{display:"flex",agnItems:"center",flexDirection:"row-reverse"}}>
-                <img  style={{width:"800px",height:"600px",marginBottom:"100px"}} alt="" src="./home1.jpg"/>
-                <span style={{marginRight:"50px",marginTop:"50px"}} ><b><h1>Past projects</h1></b><br/>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    <img  style={{width:"800px",height:"600px",marginBottom:"100px"}} alt="" src="./home1.jpg"/>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-lg-12 col-md-12 col-sm-12">
+                    <span style={{marginRight:"50px",marginTop:"50px"}} ><b><h1>Past projects</h1></b><br/>
                 <p style={{textAgn:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif",marginTop:"px"}}>
                
 <ol>
@@ -37,8 +42,9 @@ Branch Manager</li>
     </ol>	
  </p> </span>
                 
-
-                </div >
+                    </div>
+                </div>
+             
                 
             </div>
         )

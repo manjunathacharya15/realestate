@@ -6,11 +6,12 @@ export default class footer1 extends Component {
     render() {
         return (
             <div>
-                
-                <MDBFooter color="blue" className="font-small pt-4 mt-4">
+                <div className="row">
+                    <div className="col-lg-12 col-md-12 col-sm-12 ">
+                    <MDBFooter color="blue" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow>
-          <MDBCol md="6">
+        <MDBRow >
+          <MDBCol className="footer1" >
             <h5 style={{marginLeft:"200px"}} className="title">RockFort Properties</h5>
             <ul>
               <li style={{marginLeft:"180px"}} className="list-unstyled">
@@ -36,43 +37,24 @@ export default class footer1 extends Component {
               
             </ul>
           </MDBCol>
-          <MDBCol md="6">
-            <h5 style={{marginLeft:"350px"}} className="title">CONTACT US</h5>
+          <MDBCol className="footer1" >
+            <h5 style={{marginLeft:"200px"}} className="title">CONTACT US</h5>
             <ul>
-              <li style={{marginLeft:"320px"}} className="list-unstyled">
+              <li style={{marginLeft:"170px"}} className="list-unstyled">
              PHONE NUMBER: <a href="#!">9787911580</a>
               </li>
-              <li style={{marginLeft:"320px"}} className="list-unstyled">
+              <li style={{marginLeft:"170px"}} className="list-unstyled">
               E-MAIL: <a style={{marginLeft:"5px"}} href="#!">Ganapathi10@gmail.com</a>
+              
               </li>
-               <li className="list-unstyled">
+               <li className="list-unstyled" style={{marginLeft:"150px"}}>
                 <a href="#!"><i style={{fontSize:"50px"}} class="fab fa-facebook"></i></a>
                 <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-instagram"></i></a>
                 <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-whatsapp"></i></a>
-               
-              </li>
-               <li className="list-unstyled">
-               
-              </li>  
+               </li>
             </ul>
           </MDBCol>
-          {/* <MDBCol md="6">
-            <h5 style={{marginLeft:"350px"}} className="title">CONTACT US</h5>
-            <ul>
-              <li style={{marginLeft:"320px"}} className="list-unstyled">
-             PHONE NUMBER: <a href="#!">9787911580</a>
-              </li>
-              <li style={{marginLeft:"320px"}} className="list-unstyled">
-              E-MAIL: <a style={{marginLeft:"5px"}} href="#!">Ganapathi10@gmail.com</a>
-              </li>
-              {/* <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li> */}
-            {/* </ul>
-          </MDBCol> */} 
+          
         </MDBRow>
       </MDBContainer>
       <div  className="footer-copyright text-center py-3">
@@ -81,6 +63,9 @@ export default class footer1 extends Component {
         </MDBContainer>
       </div>
     </MDBFooter>
+                    </div>
+                </div>
+                
             </div>
         )
     }

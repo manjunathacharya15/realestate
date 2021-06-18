@@ -12,6 +12,7 @@ import Past from './components/ourproject'
 
 import Project from './components/project'
 import Footer1 from './components/footer1'
+import Try from './components/try'
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
        <Route path="/expert" exact component={Expert}/>
        <Route path="/ach" exact component={Ach}/>
        <Route path="/past" exact component={Past}/>
+       <Route path="/try" exact component={Try}/>
+
         
      </Router>
      <Footer1/>

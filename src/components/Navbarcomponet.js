@@ -78,6 +78,9 @@ export default class NavbarComponent extends Component{
       <li class="nav-item">
         <a class="nav-link " href="/pricing">Pricing</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link " href="/try">Pric</a>
+      </li>
     </ul>
     
   </div>
