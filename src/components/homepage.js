@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 
+
 export default class homepage extends Component {
     render() {
         return (
@@ -73,14 +74,14 @@ When searching for your next home or a local market expert who’ll help you ach
                 <div style={{display:"flex",alignItems:"center",flexDirection:"row-reverse"}} >
                 <img  style={{width:"800px",height:"600px",marginTop:"100px",marginBottom:"100px",float:"left"}} alt="" src="./home.jpg"/>
                 <span style={{marginLeft:""}} ><b><h1>AWARDS & RECOGNITIONS</h1></b><br/>
-                <p style={{textAlign:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif",marginright:"100px"}}>
-                We ensure our clients come with a lot of expectations and we will be the best point of contact for their words.
-                    <ol>
-                   
-<li value="1">Best CP Award</li>	 
-<li>Oldest CP Award </li>	
-<li>Best Business Strategy </li>	
-<li>Largest connect wrt client base </li>	
+                <p style={{textAlign:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif",marginright:"100px"}}><b>
+                We ensure our clients come with a lot of expectations and we will be the best point of contact for their words.</b>
+                    <ol >
+                   <br/>
+                   <i style={{color:"gold"}} class="fa fa-star" aria-hidden="true"></i><span style={{marginRight:"126px",padding:"10px"}} >Best CP Award</span> <br/>
+                   <i style={{color:"gold"}} class="fa fa-star" aria-hidden="true"></i><span style={{marginRight:"110px",padding:"10px"}}>Oldest CP Award</span> <br/>
+                   <i style={{color:"gold"}} class="fa fa-star" aria-hidden="true"></i><span style={{marginRight:"65px",padding:"10px"}}>Best Business Strategy</span> <br/>	
+                   <i style={{color:"gold"}} class="fa fa-star" aria-hidden="true"></i><span style={{padding:"10px"}}>Largest connect wrt client base</span> 
 
                     </ol>
                     </p> </span>
@@ -88,6 +89,7 @@ When searching for your next home or a local market expert who’ll help you ach
                 
                 </div>
                 </div>
+                
             </div>
         )
     }

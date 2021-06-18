@@ -7,7 +7,7 @@ export default class exepertize extends Component {
                  <div style={{display:"flex",agnItems:"center",flexDirection:"row-reverse"}}>
                 <img  style={{width:"800px",height:"600px",marginBottom:"100px"}} alt="" src="./home1.jpg"/>
                 <span style={{marginRight:"50px",marginTop:"50px"}} ><b><h1>OUR EXPERTISE</h1></b><br/>
-                <p style={{textAgn:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif",marginTop:"100px"}}>
+                <p style={{textAgn:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif",marginTop:"50px"}}>
                 We are expertise in Luxury homes throughout down South and also have a standard for handng our cents in a more efficient way. We understand the needs and source of properties and ensure they are being fulfilled with quaty time. 
 <ul>
 Proper guidance / assistance in finding an idle place as per requirement.

@@ -5,12 +5,13 @@ import Homepage from './components/homepage'
 import Navbarcomponenet from './components/Navbarcomponet'
 import Pricing from './components/pricing'
 import About from './components/about'
-import Footer from './components/footer'
+// import Footer from './components/footer'
 import Expert from './components/exepertize'
 import Ach from './components/achievements'
 import Past from './components/ourproject'
 
 import Project from './components/project'
+import Footer1 from './components/footer1'
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
        <Route path="/past" exact component={Past}/>
         
      </Router>
-    <Footer/>
+     <Footer1/>
+    {/* <Footer/> */}
      </BrowserRouter>
    
     </div>
