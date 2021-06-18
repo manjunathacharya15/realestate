@@ -20,7 +20,7 @@ export default class homepage extends Component {
               
                 </div> */}
                 <div>
-                <Carousel interval={"2000"}>
+                <Carousel interval={"2000"} style={{marginTop:""}}>
   <Carousel.Item  >
     <img
     style={{width:"1400px",height:"700px"}}

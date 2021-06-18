@@ -45,12 +45,15 @@ export default class footer1 extends Component {
               <li style={{marginLeft:"320px"}} className="list-unstyled">
               E-MAIL: <a style={{marginLeft:"5px"}} href="#!">Ganapathi10@gmail.com</a>
               </li>
-              {/* <li className="list-unstyled">
-                <a href="#!">Link 3</a>
+               <li className="list-unstyled">
+                <a href="#!"><i style={{fontSize:"50px"}} class="fab fa-facebook"></i></a>
+                <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-instagram"></i></a>
+                <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-whatsapp"></i></a>
+               
               </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li> */}
+               <li className="list-unstyled">
+               
+              </li>  
             </ul>
           </MDBCol>
           {/* <MDBCol md="6">

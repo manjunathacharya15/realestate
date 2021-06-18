@@ -47,7 +47,7 @@ export default class NavbarComponent extends Component{
 {/*         
         </ul>
     </nav> */} 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light " style={{backgroundColor:"white"}}>
   <a class="navbar-brand" href="/"><img style={{height:"90px",marginLeft:"150px"}} alt="" src="./rlogi.png"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@ export default class NavbarComponent extends Component{
          Projects
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/project"> projects Details</a>
+          <a class="dropdown-item" href="/project"> Projects Details</a>
           <a class="dropdown-item" href="/">Ongoing Projects </a>
       
           <a class="dropdown-item" href="/past">Completed Projects</a>
