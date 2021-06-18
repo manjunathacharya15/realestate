@@ -12,19 +12,38 @@ export default class footer1 extends Component {
         <MDBRow>
           <MDBCol md="6">
             <h5 style={{marginLeft:"200px"}} className="title">RockFort Properties</h5>
-            {/* <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p> */}
+            <ul>
+              <li style={{marginLeft:"180px"}} className="list-unstyled">
+             <a href="/"><b>Home</b></a>
+              </li>
+              <li style={{marginLeft:"180px"}} className="list-unstyled">
+               <a style={{marginLeft:""}} href="/expert"><b>Expertise</b></a>
+              </li>
+              <li style={{marginLeft:"180px"}} className="list-unstyled">
+               <a style={{marginLeft:""}} href="/project"><b>Project Details</b></a>
+              </li>
+              <li style={{marginLeft:"180px"}} className="list-unstyled">
+               <a style={{marginLeft:""}} href="/"><b>Ongoing Project</b></a>
+              </li> <li style={{marginLeft:"180px"}} className="list-unstyled">
+               <a style={{marginLeft:""}} href="/past"><b>Completed Projects</b></a>
+              </li> <li style={{marginLeft:"180px"}} className="list-unstyled">
+               <a style={{marginLeft:""}} href="/ach"><b>Achievements</b></a>
+              </li>
+              <li style={{marginLeft:"180px"}} className="list-unstyled">
+               <a style={{marginLeft:""}} href="/pricing"><b>Pricing</b></a>
+              </li>
+              
+              
+            </ul>
           </MDBCol>
           <MDBCol md="6">
-            <h5 style={{marginLeft:"350px"}} className="title">Contact Us</h5>
+            <h5 style={{marginLeft:"350px"}} className="title">CONTACT US</h5>
             <ul>
               <li style={{marginLeft:"320px"}} className="list-unstyled">
-              Phonenumber: <a href="#!">9787911580</a>
+             PHONE NUMBER: <a href="#!">9787911580</a>
               </li>
               <li style={{marginLeft:"320px"}} className="list-unstyled">
-              Email:<a href="#!">Ganapathi10@gmail.com</a>
+              E-MAIL: <a style={{marginLeft:"5px"}} href="#!">Ganapathi10@gmail.com</a>
               </li>
               {/* <li className="list-unstyled">
                 <a href="#!">Link 3</a>
@@ -34,6 +53,23 @@ export default class footer1 extends Component {
               </li> */}
             </ul>
           </MDBCol>
+          {/* <MDBCol md="6">
+            <h5 style={{marginLeft:"350px"}} className="title">CONTACT US</h5>
+            <ul>
+              <li style={{marginLeft:"320px"}} className="list-unstyled">
+             PHONE NUMBER: <a href="#!">9787911580</a>
+              </li>
+              <li style={{marginLeft:"320px"}} className="list-unstyled">
+              E-MAIL: <a style={{marginLeft:"5px"}} href="#!">Ganapathi10@gmail.com</a>
+              </li>
+              {/* <li className="list-unstyled">
+                <a href="#!">Link 3</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Link 4</a>
+              </li> */}
+            {/* </ul>
+          </MDBCol> */} 
         </MDBRow>
       </MDBContainer>
       <div  className="footer-copyright text-center py-3">
