@@ -47,7 +47,7 @@ export default class footer1 extends Component {
               E-MAIL: <a style={{marginLeft:"5px"}} href="#!">Ganapathi10@gmail.com</a>
               
               </li>
-               <li className="list-unstyled" style={{marginLeft:"150px"}}>
+               <li className="list-unstyled" style={{marginLeft:"150px",marginTop:"20px"}}>
                 <a href="#!"><i style={{fontSize:"50px"}} class="fab fa-facebook"></i></a>
                 <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-instagram"></i></a>
                 <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-whatsapp"></i></a>
