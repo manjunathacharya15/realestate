@@ -17,7 +17,7 @@ export default class Homepage extends Component {
             <Carousel interval={"2000"} >
   <Carousel.Item  >
     <img  className="img1"
-    style={{width:"1400px",height:"700px"}}
+    style={{width:"100%",height:"80%"}}
       
       src="./first1.jpg"
       alt="First slide"
@@ -26,7 +26,7 @@ export default class Homepage extends Component {
   </Carousel.Item>
   <Carousel.Item >
     <img className="img1"
-    style={{width:"1400px",height:"700px"}}
+    style={{width:"100%",height:"80%"}}
       
       src="./first2.jpg"
       alt="First slide"
@@ -35,7 +35,7 @@ export default class Homepage extends Component {
   </Carousel.Item>
   <Carousel.Item >
     <img className="img1"
-    style={{width:"1400px",height:"700px"}}
+    style={{width:"100%",height:"80%"}}
       
       src="./first3.jpg"
       alt="Second slide"
@@ -54,7 +54,7 @@ export default class Homepage extends Component {
         <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-6">
             
-                    <img className="house"  style={{width:"700px",height:"600px",marginTop:"100px"}} alt="" src="./house.jpg"/>
+                    <img className="house"  style={{width:"100%",height:"600px",marginTop:"100px"}} alt="" src="./house.jpg"/>
                     
                         
 
@@ -64,7 +64,7 @@ export default class Homepage extends Component {
             </div>
             
             <div className="col-lg-6 col-md-6 col-sm-6" style={{marginTop:"180px"}}>
-            <span style={{marginLeft:"50px"}}><b><h1>ABOUT US</h1></b><br/>
+            <span style={{marginLeft:"30%"}}><b><h1>ABOUT US</h1></b><br/>
                         <p  style={{textAlign:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif",marginBottom:"100px"}}> A dynamic background with over 30+ years of experience into real estate with a high profile and prepared with hard efforts in the industry of real estate in South India.Holds strong credibility by making many innovative marketing strategies and maintaining a great Leadership quality with staffs and builder to extend my hand for their growth drastically by developing business using multiple platforms. 
 Rockfort Properties is the leading integrated resource for executives and companies that own, invest in, develop and/or manage commercial real estate. With an emphasis on executive profiles and industry and economic data, Rockfort Properties also includes reports covering finance, sustainability, technology, property management, education and legal and regulatory issues. 
 Rockfort Properties delivers timely, in-depth and authoritative analysis of industry news, as well as access to thought leaders’ best practice strategies and proven business solutions through written, audio and video presentations.
@@ -94,7 +94,7 @@ When searching for your next home or a local market expert who’ll help you ach
                     </p> </span>
             </div>
             <div id className=" col-lg-6 col-md-6 col-sm-6 ">
-            <img  style={{width:"800px",marginTop:"100px",marginBottom:"100px",float:"left"}} alt="" src="./home.jpg"/>
+            <img  style={{width:"100%",marginTop:"100px",marginBottom:"100px",float:"left"}} alt="" src="./home.jpg"/>
             </div>
             
         </div>

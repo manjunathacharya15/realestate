@@ -41,5 +41,10 @@ code {
 
 
 }
+@media(max-width:600px){
+  .img1{
+    width: 100%;
+  }
+}
 
 

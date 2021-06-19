@@ -5,13 +5,13 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 export default class footer1 extends Component {
     render() {
         return (
-            <div>
-                <div className="row">
+            <div style={{width:"100%"}}>
+                <div className="row" >
                     <div className="col-lg-12 col-md-12 col-sm-12 ">
                     <MDBFooter color="blue" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow >
-          <MDBCol className="footer1" >
+        <MDBRow   >
+          <MDBCol className="footer1"  >
             <h5 style={{marginLeft:"200px"}} className="title">RockFort Properties</h5>
             <ul>
               <li style={{marginLeft:"180px"}} className="list-unstyled">
