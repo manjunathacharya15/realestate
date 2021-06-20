@@ -6,11 +6,11 @@ import MediaQuery from 'react-responsive';
 export default class footer1 extends Component {
     render() {
         return (
-            <div >
+            <div className="footer" >
                 <MediaQuery minWidth={320}  >
 <MediaQuery maxWidth={1600}>
                     <MDBFooter color="blue" className="font-small pt-4 mt-4">
-      <MDBContainer fluid className="text-center text-md-left">
+      <MDBContainer  fluid className="text-center text-md-left">
         <MDBRow   >
           <MDBCol  >
             <h5 style={{marginLeft:"200px"}} className="title">RockFort Properties</h5>

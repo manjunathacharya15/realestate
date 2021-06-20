@@ -32,10 +32,10 @@ function App() {
 
         
      </Router>
-     <Footer1/>
-    {/* <Footer/> */}
+     
+  
      </BrowserRouter>
-   
+     <Footer1/>
     </div>
   );
 }

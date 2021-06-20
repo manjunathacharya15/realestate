@@ -9,7 +9,7 @@ export default class achievements extends Component {
 <MediaQuery maxWidth={1600}>
             <div style={{display:"flex"}}>
           
-                    <img  style={{width:"800px",height:"600px",marginBottom:"100px",}} alt="" src="./lax.jpg"/>
+                    <img  style={{width:"100%",height:"600px",marginBottom:"100px",}} alt="" src="./lax.jpg"/>
                
                
               

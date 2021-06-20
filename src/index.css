@@ -13,29 +13,18 @@ code {
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-@media(max-width:600px){
-  .footer1{
+@media(max-width:600){
+  .footer{
     margin-right: 100px;
 
 }
 
 }
 
-@media(max-width:600px){
-  .footer2{
-    margin-right: 150px;
-
-}
 
 
 
 
-}
-
-
-
-
-}
 
 
 
