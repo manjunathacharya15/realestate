@@ -50,8 +50,8 @@ export default class footer1 extends Component {
               </li>
                <li className="list-unstyled" style={{marginTop:"20px"}}>
                 <a href="#!"><i style={{fontSize:"50px"}} class="fab fa-facebook"></i></a>
-                <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-instagram"></i></a>
-                <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-whatsapp"></i></a>
+                <a style={{marginLeft:"10px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-instagram"></i></a>
+                <a style={{marginLeft:"10px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-whatsapp"></i></a>
                </li>
             </ul>
           </MDBCol>
