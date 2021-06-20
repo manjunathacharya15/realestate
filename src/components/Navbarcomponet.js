@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class NavbarComponent extends Component{
   render(){
     return(
-      <div>
+      <div  style={{width:"100%"}}>
 
     <nav class="navbar navbar-expand-lg navbar-light " style={{backgroundColor:"white"}}>
   <a class="navbar-brand" href="/"><img style={{height:"90px",marginLeft:"150px"}} alt="" src="./rlogi.png"/></a>

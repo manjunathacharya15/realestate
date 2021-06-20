@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-
+import '../index.css'
 
 export default class footer1 extends Component {
     render() {
         return (
-            <div style={{width:"100%"}}>
+            <div className="container-fluid">
                 <div className="row" >
                     <div className="col-lg-12 col-md-12 col-sm-12 ">
                     <MDBFooter color="blue" className="font-small pt-4 mt-4">

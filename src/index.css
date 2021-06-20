@@ -37,14 +37,14 @@ code {
 
 }
 
-
+.container{
+  width: 100%;
+}
 
 
 }
-@media(max-width:600px){
-  .img1{
-    width: 100%;
-  }
+.container-fluid{
+  width: 100%;
 }
 
 
