@@ -7,10 +7,10 @@ export default class ourproject extends Component {
             <div>
                     <MediaQuery minWidth={320}  >
 <MediaQuery maxWidth={1600}>
-            <div style={{display:"flex"}} >
+            
                 
                   
-                    <img  style={{width:"800px",height:"600px",marginBottom:"100px"}} alt="" src="./home1.jpg"/>
+                    <img  style={{width:"75%",height:"600px",marginBottom:"100px"}} alt="" src="./home1.jpg"/>
                 
           
                 
@@ -45,7 +45,7 @@ Branch Manager</li>
     </ol>	
  </p> </span>
                 
-                    </div>
+                   
                     </MediaQuery>
                     </MediaQuery>
                     </div>

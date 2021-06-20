@@ -11,7 +11,7 @@ export default class pricing extends Component{
             <div >
              
             
-                    <img style={{width:"1000px",marginBottom:"80px",marginTop:"50px"}} alt="" src="./pricing.jpeg"/>
+                    <img style={{width:"60%",marginBottom:"80px",marginTop:"50px"}} alt="" src="./pricing.jpeg"/>
                    
                     
                     </div>

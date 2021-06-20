@@ -46,7 +46,7 @@ render(){
            
        
             <div >
-                    <img className="house"  style={{width:"60%",marginTop:"100px"}} alt="" src="./house.jpg"/>
+                    <img className="house"  style={{width:"75%",marginTop:"100px"}} alt="" src="./house.jpg"/>
                     
                         
 
@@ -74,7 +74,7 @@ When searching for your next home or a local market expert who’ll help you ach
             
             
        
-            <img  style={{width:"60%",marginTop:"100px",marginBottom:"100px"}} alt="" src="./home.jpg"/>
+            <img  style={{width:"75%",marginTop:"100px",marginBottom:"100px"}} alt="" src="./home.jpg"/>
             
             <span style={{marginLeft:""}} ><b><h1>AWARDS & RECOGNITIONS</h1></b><br/>
                 <p style={{textAlign:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif",marginright:"100px"}}><b>
