@@ -33,9 +33,12 @@ export default class NavbarComponent extends Component{
       <li class="nav-item" style={{marginLeft:"20px"}}>
         <a class="nav-link " href="/ach">Achievements</a>
       </li>
-      <li class="nav-item" style={{marginLeft:"20px"}}>
+     <li class="nav-item" style={{marginLeft:"20px"}}>
         <a class="nav-link " href="/pricing">Pricing</a>
-      </li>
+      </li> 
+      <li class="nav-item" style={{marginLeft:"20px"}}>
+        <a class="nav-link " href="/try">Pricing</a>
+      </li> 
       
     </ul>
     

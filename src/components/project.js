@@ -5,7 +5,7 @@ export default class project extends Component {
     render() {
         return (
             <div >
-                <div className="row" style={{}}>
+               
                     
                    
                    
@@ -24,7 +24,7 @@ export default class project extends Component {
                 </div>
 
                 
-            </div>
+            
              
         )
     }

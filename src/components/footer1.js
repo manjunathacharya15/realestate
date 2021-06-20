@@ -5,9 +5,8 @@ import '../index.css'
 export default class footer1 extends Component {
     render() {
         return (
-            <div className="container-fluid">
-                <div className="row" >
-                    <div className="col-lg-12 col-md-12 col-sm-12 ">
+            <div >
+            
                     <MDBFooter color="blue" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow   >
@@ -64,9 +63,7 @@ export default class footer1 extends Component {
       </div>
     </MDBFooter>
                     </div>
-                </div>
-                
-            </div>
+            
         )
     }
 }

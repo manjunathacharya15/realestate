@@ -3,14 +3,13 @@ import React, { Component } from 'react'
 export default class ourproject extends Component {
     render() {
         return (
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+            <div style={{display:"flex"}} >
+                
+                  
                     <img  style={{width:"800px",height:"600px",marginBottom:"100px"}} alt="" src="./home1.jpg"/>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-12 col-md-12 col-sm-12">
+                
+          
+                
                     <span style={{marginRight:"50px",marginTop:"50px"}} ><b><h1>Past projects</h1></b><br/>
                 <p style={{textAgn:"center",fontSize:"15px",fontFamily:"Montserrat,sans-serif",marginTop:"px"}}>
                
@@ -43,10 +42,9 @@ Branch Manager</li>
  </p> </span>
                 
                     </div>
-                </div>
+        
              
                 
-            </div>
         )
     }
 }
