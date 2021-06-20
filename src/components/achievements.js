@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
+import MediaQuery from 'react-responsive'
 
 export default class achievements extends Component {
     render() {
         return (
+            <div>
+                    <MediaQuery minWidth={320}  >
+<MediaQuery maxWidth={1600}>
             <div style={{display:"flex"}}>
           
                     <img  style={{width:"800px",height:"600px",marginBottom:"100px",}} alt="" src="./lax.jpg"/>
@@ -30,6 +34,9 @@ optimum utization of property and other resources.</>
                  
             
                 
+            </div>
+            </MediaQuery>
+            </MediaQuery>
             </div>
         )
     }

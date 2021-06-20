@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
+import MediaQuery from 'react-responsive'
 
 export default class exepertize extends Component {
     render() {
         return (
+            <div>
+                    <MediaQuery minWidth={320}  >
+<MediaQuery maxWidth={1600}>
             <div style={{display:"flex"}}>
                 
                     <span style={{marginRight:"50px",marginTop:"50px"}} ><b><h1>OUR EXPERTISE</h1></b><br/>
@@ -29,6 +33,9 @@ Proper guidance / assistance in finding an idle place as per requirement.
                  
              
                 
+            </div>
+            </MediaQuery>
+            </MediaQuery>
             </div>
         )
     }

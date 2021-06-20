@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import '../index.css'
+import MediaQuery from 'react-responsive';
 
 export default class footer1 extends Component {
     render() {
         return (
             <div >
-            
+                <MediaQuery minWidth={320}  >
+<MediaQuery maxWidth={1600}>
                     <MDBFooter color="blue" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow   >
@@ -62,6 +64,8 @@ export default class footer1 extends Component {
         </MDBContainer>
       </div>
     </MDBFooter>
+    </MediaQuery>
+    </MediaQuery>
                     </div>
             
         )

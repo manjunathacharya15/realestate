@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
+import MediaQuery from 'react-responsive'
 
 
 
 export default class homepage extends Component {
     render() {
         return (
-            <div className="container-fluid" 
-          
-          >
-                <div className="row">
-                    <div className=" col-lg">
+            <div> 
+
+<MediaQuery minWidth={320}  >
+<MediaQuery maxWidth={1600}>
+                
                         
               
                 <div>
@@ -46,10 +47,10 @@ When searching for your next home or a local market expert who’ll help you ach
 
  </ol></span>
                 </div>
-               
+               </MediaQuery>
+               </MediaQuery>
                 </div>
-                </div>
-            </div>
+             
         )
     }
 }

@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
+import MediaQuery from 'react-responsive'
 
 export default class ourproject extends Component {
     render() {
         return (
+            <div>
+                    <MediaQuery minWidth={320}  >
+<MediaQuery maxWidth={1600}>
             <div style={{display:"flex"}} >
                 
                   
@@ -41,6 +45,9 @@ Branch Manager</li>
     </ol>	
  </p> </span>
                 
+                    </div>
+                    </MediaQuery>
+                    </MediaQuery>
                     </div>
         
              

@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
-// import { Carousel } from 'react-bootstrap'
+import MediaQuery from 'react-responsive'
 
 export default class project extends Component {
     render() {
         return (
+            <div>
+                    <MediaQuery minWidth={320}  >
+<MediaQuery maxWidth={1600}>
             <div >
                
                     
@@ -21,6 +24,9 @@ export default class project extends Component {
                 <img style={{width:"1000px"}} alt="" src="./images9.jpeg"/>
                 <img style={{width:"1000px"}} alt="" src="./images10.jpeg"/>
 
+                </div>
+                </MediaQuery>
+                </MediaQuery>
                 </div>
 
                 
