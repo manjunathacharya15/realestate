@@ -12,7 +12,7 @@ export default class footer1 extends Component {
                     <MDBFooter color="blue" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow   >
-          <MDBCol className="footer1"  >
+          <MDBCol  >
             <h5 style={{marginLeft:"200px"}} className="title">RockFort Properties</h5>
             <ul>
               <li style={{marginLeft:"180px"}} className="list-unstyled">
@@ -38,7 +38,7 @@ export default class footer1 extends Component {
               
             </ul>
           </MDBCol>
-          <MDBCol className="footer1" >
+          <MDBCol  >
             <h5 style={{marginLeft:"200px"}} className="title">CONTACT US</h5>
             <ul>
               <li style={{marginLeft:"170px"}} className="list-unstyled">
