@@ -6,7 +6,7 @@ export default class Try extends Component{
 render(){
     return(
       <div>
-        <MediaQuery minWidth={375}  >
+        <MediaQuery minWidth={320}  >
 <MediaQuery maxWidth={896}>
 
 
@@ -46,7 +46,7 @@ render(){
            
        
             
-                    <img className="house"  style={{width:"700px",height:"600px",marginTop:"100px"}} alt="" src="./house.jpg"/>
+                    <img className="house"  style={{width:"100%",height:"600px",marginTop:"100px"}} alt="" src="./house.jpg"/>
                     
                         
 
@@ -85,7 +85,7 @@ When searching for your next home or a local market expert who’ll help you ach
                     </p> </span>
             
        
-            <img  style={{width:"800px",marginTop:"100px",marginBottom:"100px",float:"left"}} alt="" src="./home.jpg"/>
+            <img  style={{width:"100%",marginTop:"100px",marginBottom:"100px",float:"left"}} alt="" src="./home.jpg"/>
             
 
         
