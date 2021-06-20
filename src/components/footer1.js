@@ -7,31 +7,31 @@ export default class footer1 extends Component {
     render() {
         return (
             <div className="footer" >
-                <MediaQuery minWidth={320}  >
+                <MediaQuery minWidth={320}   >
 <MediaQuery maxWidth={1600}>
                     <MDBFooter color="blue" className="font-small pt-4 mt-4">
       <MDBContainer  fluid className="text-center text-md-left">
         <MDBRow   >
           <MDBCol  >
-            <h5 style={{marginLeft:"200px"}} className="title">RockFort Properties</h5>
+            <h5 style={{}} className="title">RockFort Properties</h5>
             <ul>
-              <li style={{marginLeft:"180px"}} className="list-unstyled">
+              <li style={{}} className="list-unstyled">
              <a href="/"><b>Home</b></a>
               </li>
-              <li style={{marginLeft:"180px"}} className="list-unstyled">
+              <li style={{}} className="list-unstyled">
                <a style={{marginLeft:""}} href="/expert"><b>Expertise</b></a>
               </li>
-              <li style={{marginLeft:"180px"}} className="list-unstyled">
+              <li style={{}} className="list-unstyled">
                <a style={{marginLeft:""}} href="/project"><b>Project Details</b></a>
               </li>
-              <li style={{marginLeft:"180px"}} className="list-unstyled">
+              <li style={{}} className="list-unstyled">
                <a style={{marginLeft:""}} href="/"><b>Ongoing Project</b></a>
-              </li> <li style={{marginLeft:"180px"}} className="list-unstyled">
+              </li> <li style={{}} className="list-unstyled">
                <a style={{marginLeft:""}} href="/past"><b>Completed Projects</b></a>
-              </li> <li style={{marginLeft:"180px"}} className="list-unstyled">
+              </li> <li style={{}} className="list-unstyled">
                <a style={{marginLeft:""}} href="/ach"><b>Achievements</b></a>
               </li>
-              <li style={{marginLeft:"180px"}} className="list-unstyled">
+              <li style={{}} className="list-unstyled">
                <a style={{marginLeft:""}} href="/pricing"><b>Pricing</b></a>
               </li>
               
@@ -39,16 +39,16 @@ export default class footer1 extends Component {
             </ul>
           </MDBCol>
           <MDBCol  >
-            <h5 style={{marginLeft:"200px"}} className="title">CONTACT US</h5>
+            <h5 style={{}} className="title">CONTACT US</h5>
             <ul>
-              <li style={{marginLeft:"170px"}} className="list-unstyled">
+              <li style={{}} className="list-unstyled">
              PHONE NUMBER: <a href="#!">9787911580</a>
               </li>
-              <li style={{marginLeft:"170px"}} className="list-unstyled">
+              <li style={{}} className="list-unstyled">
               E-MAIL: <a style={{marginLeft:"5px"}} href="#!">Ganapathi10@gmail.com</a>
               
               </li>
-               <li className="list-unstyled" style={{marginLeft:"150px",marginTop:"20px"}}>
+               <li className="list-unstyled" style={{marginTop:"20px"}}>
                 <a href="#!"><i style={{fontSize:"50px"}} class="fab fa-facebook"></i></a>
                 <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-instagram"></i></a>
                 <a style={{marginLeft:"20px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-whatsapp"></i></a>
