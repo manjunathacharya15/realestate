@@ -7,7 +7,7 @@ render(){
     return(
       <div>
         <MediaQuery minWidth={375}  >
-<MediaQuery maxWidth={667}>
+<MediaQuery maxWidth={896}>
 
 
         <div >
