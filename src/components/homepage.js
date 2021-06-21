@@ -70,7 +70,7 @@ When searching for your next home or a local market expert who’ll help you ach
 
                  </div>
       
-            <div >
+            <div  >
             
             
        

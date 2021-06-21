@@ -3,6 +3,7 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import '../index.css'
 import MediaQuery from 'react-responsive';
 
+
 export default class footer1 extends Component {
     render() {
         return (
@@ -42,20 +43,20 @@ export default class footer1 extends Component {
             <h5 style={{}} className="title">CONTACT US</h5>
             <ul>
               <li style={{}} className="list-unstyled">
-             PHONE NUMBER: <a href="#!">9787911580</a>
+             PHONE NUMBER: <a href="tel:9787911580">9787911580</a>
               </li>
               <li style={{}} className="list-unstyled">
-              E-MAIL: <a style={{marginLeft:"5px"}} href="#!">Ganapathi10@gmail.com</a>
+              E-MAIL: <a style={{marginLeft:"5px"}} href="mailto:Ganapathi10@gmail.com">Ganapathi10@gmail.com</a>
               
               </li>
                <li className="list-unstyled" style={{marginTop:"20px"}}>
                 <a href="#!"><i style={{fontSize:"50px"}} class="fab fa-facebook"></i></a>
                 <a style={{marginLeft:"10px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-instagram"></i></a>
-                <a style={{marginLeft:"10px"}} href="#!"><i style={{fontSize:"50px"}} class="fab fa-whatsapp"></i></a>
+                <a style={{marginLeft:"10px"}} href="https://wa.me/+919787911580"><i style={{fontSize:"50px"}} class="fab fa-whatsapp" > </i></a>
                </li>
             </ul>
           </MDBCol>
-          
+
         </MDBRow>
       </MDBContainer>
       <div  className="footer-copyright text-center py-3">
